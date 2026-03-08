@@ -1,0 +1,9 @@
+# Rust target directory
+target/
+
+# Ignore all parquet files (assignment requirement)
+data/**/*.parquet
+*.parquet
+
+# VS Code settings
+.vscode/

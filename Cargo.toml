@@ -1,0 +1,8 @@
+[package]
+name = "nyc_yellow_taxi_2025"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+datafusion = { version = "52.1.0", features = ["parquet", "datetime_expressions"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
